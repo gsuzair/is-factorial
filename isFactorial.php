@@ -1,9 +1,9 @@
 <?php
 
 $n = 120;
-isFacotrial($n);
+isFactorial($n);
 
-function isFacotrial($n){
+function isFactorial($n){
 	$rest = 1;
 	$resp = false;
 	for($i = 1; $i <= $n; $i++){
